@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "LPU WiFi Auto Login",
+  "version": "1.0",
+  "description": "Automatically logs into LPU WiFi (24online) with saved credentials and optional auto-login.",
+  "permissions": ["storage"],
+  "icons": {
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "128": "icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://internet.lpu.in/24online/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
