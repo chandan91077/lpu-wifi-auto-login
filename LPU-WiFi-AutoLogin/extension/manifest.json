@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "LPU WiFi Auto Login",
+  "version": "1.0",
+  "description": "Automatically login to LPU WiFi network",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://internet.lpu.in/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon128.png",
+    "default_title": "LPU WiFi Auto Login"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://internet.lpu.in/24online/*",
+        "https://internet.lpu.in/24online/servlet/E24online.e24onlineerr*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons": {
+    "128": "icon128.png"
+  }
+}
