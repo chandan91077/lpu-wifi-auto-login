@@ -1,11 +1,10 @@
 {
   "manifest_version": 3,
   "name": "LPU WiFi Auto Login",
-  "version": "1.0",
+  "version": "1.0.2",
   "description": "Automatically login to LPU WiFi network",
   "permissions": [
-    "storage",
-    "activeTab"
+    "storage"
   ],
   "host_permissions": [
     "https://internet.lpu.in/*"

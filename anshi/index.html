@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suryansh Vikram Singh | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Preloader -->
+  <div id="preloader">
+    <p class="preloader-sub">hello world</p>
+    <h1 class="preloader-name">SURYANSH</h1>
+  </div>
+
+  <!-- Particle Network Canvas -->
+  <canvas id="particleCanvas"></canvas>
+
+  <!-- Navigation -->
+  <header id="navbar">
+    <a href="#home" class="logo">Suryansh</a>
+    <nav id="navMenu">
+      <a href="#home" class="nav-link active"><i class="ri-home-4-line"></i> Home</a>
+      <a href="#about" class="nav-link"><i class="ri-user-3-line"></i> About</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#contact" class="nav-link">Contact Us</a>
+    </nav>
+    <button class="mobile-toggle" id="menuToggle" aria-label="Toggle menu">
+      <i class="ri-menu-3-line"></i>
+    </button>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <div class="hero-text" data-animate="fade-right">
+        <p class="hero-greeting">Contact Me</p>
+        <h1 class="spaced-title">
+          <span>H</span><span>i</span><span>,</span><br>
+          <span>I</span><span>'</span><span>m</span> <span class="name-highlight">S</span><span class="name-highlight">u</span><span class="name-highlight">r</span><span class="name-highlight">y</span><span class="name-highlight">a</span><span class="name-highlight">n</span><span class="name-highlight">s</span><span class="name-highlight">h</span>
+        </h1>
+        <div class="typing-wrapper">
+          <span class="typing-text" id="typingText"></span><span class="cursor">|</span>
+        </div>
+        <p class="hero-subtitle">Data Science and Backend Developer</p>
+        <div class="socials">
+          <a href="https://linkedin.com/in/suryanshvikramsingh100" class="social-icon" aria-label="LinkedIn">
+            <i class="ri-linkedin-fill"></i>
+          </a>
+          <a href="tel:+917007589740" class="social-icon" aria-label="Phone">
+            <i class="ri-phone-fill"></i>
+          </a>
+          <a href="https://github.com/Suryansh07Singh" class="social-icon" aria-label="GitHub">
+            <i class="ri-github-fill"></i>
+          </a>
+          <a href="mailto:suryanshs248@gmail.com" class="social-icon" aria-label="Email">
+            <i class="ri-mail-fill"></i>
+          </a>
+        </div>
+        <a href="#" class="btn-download">
+          <i class="ri-download-2-line"></i> Download CV
+        </a>
+      </div>
+      <div class="hero-visual" data-animate="fade-left">
+        <div class="hero-img-glow">
+          <div class="hero-img-placeholder">
+            <i class="ri-user-line"></i>
+          </div>
+        </div>
+        <!-- Decorative color bars -->
+        <div class="deco-bar bar-cyan bar-1"></div>
+        <div class="deco-bar bar-red bar-2"></div>
+        <div class="deco-bar bar-cyan bar-3"></div>
+        <div class="deco-bar bar-red bar-4"></div>
+        <div class="deco-bar bar-cyan bar-5"></div>
+        <div class="deco-bar bar-red bar-6"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="section-container">
+      <div class="about-grid">
+        <div class="about-visual" data-animate="fade-right">
+          <div class="initial-letter">
+            <span class="letter-back">S</span>
+            <span class="letter-front">S</span>
+          </div>
+        </div>
+        <div class="about-text" data-animate="fade-left">
+          <h2 class="section-title spaced">
+            <span>A</span><span>b</span><span>o</span><span>u</span><span>t</span>
+            &nbsp;&nbsp;
+            <span>m</span><span>e</span>
+          </h2>
+          <p>
+            I'm <strong class="accent-green">Suryansh Vikram Singh</strong>, a B.Tech CSE student at Lovely Professional University (CGPA: 7.47), focused on <strong class="accent-green">Data Science, Machine Learning, and Full-Stack Development</strong>. I work with C++, Python, JavaScript, MongoDB, SQLite, Pandas, NumPy, Scikit-Learn, and ARIMA to build practical, scalable products.
+          </p>
+          <p>
+            As a <strong class="accent-green">Data Science Intern at Skill Craft Technology (Remote, Jun 2025)</strong>, I created 12+ visualizations, built an 85% accurate Decision Tree classifier, cleaned and analyzed 800+ rows of data, and studied 10,000+ accident records to identify key hotspot zones and weather-driven risk patterns.
+          </p>
+          <p>
+            <strong class="accent-green">Certifications:</strong> Python Django Development (CipherSchools, Oct 2024), DSA using C++ (CipherSchools, Mar 2025), and Cloud Computing (NPTEL, Sept 2025). <strong class="accent-green">Extra-curriculars:</strong> 2nd Runner Up in Code Mastery Challenge (Nov 2023), Hackathon 2.0 project prototype (Mar 2024), and Research and Development member in Microsoft Club (Sep 2025).
+          </p>
+          <p>
+            <strong class="accent-green">Education:</strong> Lovely Professional University, Punjab - B.Tech in Computer Science and Engineering (Aug 2023 - Present); Prasad International School, Jaunpur - Intermediate (PCM, 74.6%) and Matriculation (82.2%).
+          </p>
+          <div class="about-stats-row">
+            <div class="stat-badge">
+              <span class="stat-number">12+</span>
+              <span class="stat-label">Visualizations</span>
+            </div>
+            <div class="stat-badge">
+              <span class="stat-number">85%</span>
+              <span class="stat-label">Model Accuracy</span>
+            </div>
+            <div class="stat-badge">
+              <span class="stat-number">10K+</span>
+              <span class="stat-label">Records Analyzed</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section class="projects" id="projects">
+    <div class="section-container">
+      <h2 class="section-title spaced center">
+        <span>R</span><span>e</span><span>c</span><span>e</span><span>n</span><span>t</span>
+        &nbsp;&nbsp;
+        <span>P</span><span>r</span><span>o</span><span>j</span><span>e</span><span>c</span><span>t</span><span>s</span>
+      </h2>
+
+      <!-- Project 1 -->
+      <div class="project-showcase" data-animate="fade-up">
+        <div class="project-preview">
+          <div class="preview-frame">
+            <div class="preview-placeholder">
+              <i class="ri-building-2-line"></i>
+              <span>Anvik Biotech</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-details">
+          <h3>Anvik Biotech - Online Medical Store (Nov 2025)</h3>
+          <p>
+            Developed a complete medical e-commerce platform using <strong>HTML, CSS, React, Node.js, Express, PHP, and MySQL</strong>. Implemented authentication, product catalog, cart and checkout, order management, responsive UI, and secure backend APIs for smooth user experience.
+          </p>
+          <a href="https://github.com/Suryansh07Singh" class="visit-link">GitHub : <span>Anvik Biotech</span></a>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-showcase reverse" data-animate="fade-up">
+        <div class="project-preview">
+          <div class="preview-frame">
+            <div class="preview-placeholder">
+              <i class="ri-advertisement-line"></i>
+              <span>Stock Forecasting</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-details">
+          <h3>Stock Market Analysis and Forecasting (Jul 2025)</h3>
+          <p>
+            Built a data-driven system to analyze historical stock trends and forecast future prices using <strong>Python</strong>. Implemented and evaluated <strong>Linear Regression and Random Forest</strong> models, and designed a scalable pipeline for rapid experimentation with ML and time-series approaches.
+          </p>
+          <a href="https://github.com/Suryansh07Singh" class="visit-link">GitHub : <span>Stock Forecasting</span></a>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-showcase" data-animate="fade-up">
+        <div class="project-preview">
+          <div class="preview-frame">
+            <div class="preview-placeholder">
+              <i class="ri-wallet-3-line"></i>
+              <span>Expense Tracker</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-details">
+          <h3>Behavioral Expense Tracker (Jan 2026)</h3>
+          <p>
+            Created a <strong>Django-based behavioral finance app</strong> with category budgeting, soft spending controls, reward-based tracking, daily limits, emergency cooldown logic, and override detection. Integrated backend analytics and a responsive dashboard with <strong>Chart.js</strong> visualizations for better financial decisions.
+          </p>
+          <a href="https://github.com/Suryansh07Singh" class="visit-link">GitHub : <span>Behavioral Expense Tracker</span></a>
+        </div>
+      </div>
+
+      <div class="projects-cta" data-animate="fade-up">
+        <a href="#" class="btn-see-all">See All Projects <i class="ri-arrow-right-line"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills" id="skills">
+    <div class="section-container">
+      <h2 class="section-title spaced center">
+        <span>S</span><span>k</span><span>i</span><span>l</span><span>l</span><span>s</span>
+      </h2>
+      <div class="skills-grid-new" data-animate="fade-up">
+        <div class="skill-card">
+          <i class="ri-code-s-slash-line" style="color:#f0f0f0;"></i>
+          <span>C++</span>
+        </div>
+        <div class="skill-card">
+          <i class="ri-braces-line" style="color:#3776ab;"></i>
+          <span>Python</span>
+        </div>
+        <div class="skill-card">
+          <i class="ri-code-box-fill" style="color:#f7df1e;"></i>
+          <span>C</span>
+        </div>
+        <div class="skill-card">
+          <i class="ri-cup-line" style="color:#f89820;"></i>
+          <span>Java</span>
+        </div>
+        <div class="skill-card">
+          <i class="ri-javascript-fill" style="color:#f7df1e;"></i>
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-card">
+          <i class="ri-database-2-fill" style="color:#10b981;"></i>
+          <span>MongoDB</span>
+        </div>
+        <div class="skill-card">
+          <i class="ri-hard-drive-2-fill" style="color:#60a5fa;"></i>
+          <span>SQLite</span>
+        </div>
+        <div class="skill-card">
+          <i class="ri-bar-chart-box-fill" style="color:#22c55e;"></i>
+          <span>Pandas</span>
+        </div>
+        <div class="skill-card">
+          <i class="ri-function-line" style="color:#a78bfa;"></i>
+          <span>NumPy</span>
+        </div>
+        <div class="skill-card">
+          <i class="ri-brain-fill" style="color:#f97316;"></i>
+          <span>Scikit-Learn</span>
+        </div>
+        <div class="skill-card">
+          <i class="ri-line-chart-fill" style="color:#ef4444;"></i>
+          <span>ARIMA</span>
+        </div>
+        <div class="skill-card">
+          <i class="ri-tools-fill" style="color:#94a3b8;"></i>
+          <span>PowerBI and Git</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <div class="section-container">
+      <h2 class="section-title spaced center">
+        <span>C</span><span>o</span><span>n</span><span>t</span><span>a</span><span>c</span><span>t</span>
+        &nbsp;&nbsp;
+        <span>m</span><span>e</span>
+      </h2>
+      <form class="contact-form" data-animate="fade-up">
+        <div class="form-row">
+          <div class="form-group">
+            <input type="text" placeholder="Your Name" required>
+          </div>
+          <div class="form-group">
+            <input type="email" placeholder="suryanshs248@gmail.com" required>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <input type="tel" placeholder="+91-7007589740">
+          </div>
+          <div class="form-group">
+            <input type="text" placeholder="Data Science / Backend / Collaboration">
+          </div>
+        </div>
+        <div class="form-group">
+          <textarea rows="6" placeholder="Let's build something impactful together."></textarea>
+        </div>
+        <button type="submit" class="btn-submit">
+          Send message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-top">
+        <div class="footer-hello">
+          <p class="footer-sub">hello world</p>
+          <h2 class="footer-brand">SURYANSH</h2>
+        </div>
+        <div class="footer-nav">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#projects">Projects</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-socials">
+          <a href="https://linkedin.com/in/suryanshvikramsingh100"><i class="ri-linkedin-fill"></i></a>
+          <a href="tel:+917007589740"><i class="ri-phone-fill"></i></a>
+          <a href="https://github.com/Suryansh07Singh"><i class="ri-github-fill"></i></a>
+          <a href="mailto:suryanshs248@gmail.com"><i class="ri-mail-fill"></i></a>
+        </div>
+      </div>
+      <p class="footer-copy">&copy; 2026 Suryansh Vikram Singh. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    /* ====== Preloader ====== */
+    window.addEventListener('load', () => {
+      const preloader = document.getElementById('preloader');
+      setTimeout(() => {
+        preloader.classList.add('fade-out');
+        setTimeout(() => preloader.style.display = 'none', 600);
+      }, 1500);
+    });
+
+    /* ====== Typing Animation ====== */
+    const roles = ['Data Science Intern', 'Machine Learning Enthusiast', 'Backend Developer', 'Problem Solver'];
+    let roleIndex = 0, charIndex = 0, isDeleting = false;
+    const typingEl = document.getElementById('typingText');
+
+    function typeRole() {
+      const current = roles[roleIndex];
+      if (isDeleting) {
+        typingEl.textContent = current.substring(0, charIndex--);
+        if (charIndex < 0) { isDeleting = false; roleIndex = (roleIndex + 1) % roles.length; }
+      } else {
+        typingEl.textContent = current.substring(0, charIndex++);
+        if (charIndex > current.length) { isDeleting = true; setTimeout(typeRole, 1200); return; }
+      }
+      setTimeout(typeRole, isDeleting ? 50 : 100);
+    }
+    typeRole();
+
+    /* ====== Particle Network Animation ====== */
+    const canvas = document.getElementById('particleCanvas');
+    const ctx = canvas.getContext('2d');
+    let particles = [];
+    const PARTICLE_COUNT = 80;
+    const CONNECT_DIST = 150;
+
+    function resizeCanvas() {
+      canvas.width = window.innerWidth;
+      canvas.height = document.body.scrollHeight;
+    }
+    window.addEventListener('resize', resizeCanvas);
+    resizeCanvas();
+
+    class Particle {
+      constructor() {
+        this.x = Math.random() * canvas.width;
+        this.y = Math.random() * canvas.height;
+        this.vx = (Math.random() - 0.5) * 0.5;
+        this.vy = (Math.random() - 0.5) * 0.5;
+        this.radius = Math.random() * 2 + 1;
+      }
+      update() {
+        this.x += this.vx;
+        this.y += this.vy;
+        if (this.x < 0 || this.x > canvas.width) this.vx *= -1;
+        if (this.y < 0 || this.y > canvas.height) this.vy *= -1;
+      }
+      draw() {
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(255, 255, 255, 0.5)';
+        ctx.fill();
+      }
+    }
+
+    function initParticles() {
+      particles = [];
+      for (let i = 0; i < PARTICLE_COUNT; i++) particles.push(new Particle());
+    }
+
+    function connectParticles() {
+      for (let i = 0; i < particles.length; i++) {
+        for (let j = i + 1; j < particles.length; j++) {
+          const dx = particles[i].x - particles[j].x;
+          const dy = particles[i].y - particles[j].y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < CONNECT_DIST) {
+            ctx.beginPath();
+            ctx.strokeStyle = `rgba(255, 255, 255, ${0.12 * (1 - dist / CONNECT_DIST)})`;
+            ctx.lineWidth = 0.5;
+            ctx.moveTo(particles[i].x, particles[i].y);
+            ctx.lineTo(particles[j].x, particles[j].y);
+            ctx.stroke();
+          }
+        }
+      }
+    }
+
+    function animateParticles() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      particles.forEach(p => { p.update(); p.draw(); });
+      connectParticles();
+      requestAnimationFrame(animateParticles);
+    }
+
+    const resizeObserver = new ResizeObserver(() => {
+      canvas.height = document.body.scrollHeight;
+    });
+    resizeObserver.observe(document.body);
+
+    initParticles();
+    animateParticles();
+
+    /* ====== Navbar scroll effect ====== */
+    window.addEventListener('scroll', () => {
+      document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    /* ====== Scroll animations ====== */
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) entry.target.classList.add('animate-in');
+      });
+    }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+    document.querySelectorAll('[data-animate]').forEach(el => observer.observe(el));
+
+    /* ====== Active nav link ====== */
+    const sections = document.querySelectorAll('section');
+    const navLinks = document.querySelectorAll('.nav-link');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(s => {
+        if (window.scrollY >= s.offsetTop - 200) current = s.getAttribute('id');
+      });
+      navLinks.forEach(l => {
+        l.classList.remove('active');
+        if (l.getAttribute('href') === '#' + current) l.classList.add('active');
+      });
+    });
+
+    /* ====== Mobile menu ====== */
+    const menuToggle = document.getElementById('menuToggle');
+    const navMenu = document.getElementById('navMenu');
+    menuToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('open');
+      const icon = menuToggle.querySelector('i');
+      icon.className = navMenu.classList.contains('open') ? 'ri-close-line' : 'ri-menu-3-line';
+    });
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('open');
+        menuToggle.querySelector('i').className = 'ri-menu-3-line';
+      });
+    });
+
+    /* ====== Smooth scroll ====== */
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      });
+    });
+  </script>
+
+</body>
+</html>

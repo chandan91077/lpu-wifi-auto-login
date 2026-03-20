@@ -53,7 +53,7 @@ def build():
         'main.py',
         '--onefile',
         '--windowed',  # NO CONSOLE - GUI only
-        '--noconsole',  # Extra flag to ensure no console
+        '--noconsol/e',  # Extra flag to ensure no console
         '--name=LPU-WiFi-AutoLogin',
         '--hidden-import=keyboard',
         '--hidden-import=tkinter',

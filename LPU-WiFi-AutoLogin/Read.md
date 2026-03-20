@@ -69,3 +69,4 @@ if __name__ == '__main__':
 # 2. First time: Enter LPU credentials
 # 3. Install Chrome extension (follow prompts)
 # 4. Press Ctrl+Alt+L anytime to trigger auto-login
+
